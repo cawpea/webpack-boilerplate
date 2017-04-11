@@ -1,0 +1,13 @@
+body {
+  color: darkcyan;
+  transition: all .1s ease;
+}
+
+p:before {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-image: url("../img/html5.png");
+    background-size: contain;
+    content: "";
+}
